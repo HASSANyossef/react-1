@@ -1,0 +1,67 @@
+.Need{
+    margin-top: 5%;
+    width: 100%;
+    height: 500px;
+    background-color: #f4623a;
+}
+.Need .Need-content{
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    padding: 5%;
+}
+.Need .Need-h2{
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 35px;
+    margin-bottom: 60px;
+    position: relative;
+    font-family: 'Merriweather Sans',
+    sans-serif;
+}
+.Need .Need-h2::after {
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 3px;
+    background-color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -25px;
+}
+
+.Need .Need-p{
+    color: rgb(255 255 255 / 75%);
+    margin-bottom: 40px;
+    font-size: 19px;
+    line-height: 1.5;
+}
+.Need .Need-btn{
+    padding: 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #000;
+    background-color: #f9fafb;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+}
+
+@media (max-width:991px) {
+    .Need .Need-content {
+        width: 85%;
+    }
+}
+
+@media (max-width:561px) {
+    .Need .Need-h2 {
+        line-height: 1.2;
+        font-size: 25px;
+    }
+}
